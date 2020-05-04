@@ -1,0 +1,1 @@
+DONT FORGET to always put a message on commits and to update the version number and date in the readme whenever you push something. Also dont forget to push when you are done with something, better to push more often.
