@@ -4,6 +4,7 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
+<<<<<<< HEAD
   m_Scenes:
   - enabled: 1
     path: Assets/Scenes/map1.unity
@@ -14,3 +15,7 @@ EditorBuildSettings:
   m_configObjects:
     com.unity.input.settings: {fileID: 11400000, guid: cb6a3768d635e6b45b3511bfd05a2239,
       type: 2}
+=======
+  m_Scenes: []
+  m_configObjects: {}
+>>>>>>> parent of 5cae5ec... work on player model, added mouselook

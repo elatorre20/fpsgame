@@ -1,5 +1,9 @@
 sceneSetups:
+<<<<<<< HEAD
 - path: Assets/Scenes/test_map.unity
+=======
+- path: Assets/Scenes/map1.unity
+>>>>>>> parent of 5cae5ec... work on player model, added mouselook
   isLoaded: 1
   isActive: 1
   isSubScene: 0
