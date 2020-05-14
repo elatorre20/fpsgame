@@ -1,5 +1,0 @@
-<<<<<<< HEAD
-﻿{"cameraMode":{"drawMode":0,"name":"Shaded","section":"Shading Mode"},"sceneLighting":true,"audioPlay":false,"sceneViewState":{"showFog":true,"showMaterialUpdate":false,"showSkybox":true,"showFlares":true,"showImageEffects":true,"showParticleSystems":true},"in2DMode":false,"pivot":{"x":-1.6049119234085084,"y":3.2372570037841799,"z":2.238241672515869},"rotation":{"x":0.06311311572790146,"y":0.6973367929458618,"z":-0.06187571957707405,"w":0.7112815976142883},"size":8.697647094726563,"orthographic":false}
-=======
-﻿{"cameraMode":{"drawMode":0,"name":"Shaded","section":"Shading Mode"},"sceneLighting":true,"audioPlay":false,"sceneViewState":{"showFog":true,"showMaterialUpdate":false,"showSkybox":true,"showFlares":true,"showImageEffects":true,"showParticleSystems":true},"in2DMode":false,"pivot":{"x":-0.865384578704834,"y":-2.6423254013061525,"z":4.733880996704102},"rotation":{"x":0.31286928057670596,"y":0.06120540574193001,"z":-0.02020864188671112,"w":0.94761061668396},"size":13.022601127624512,"orthographic":false}
->>>>>>> parent of 5cae5ec... work on player model, added mouselook
