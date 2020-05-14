@@ -6,10 +6,14 @@ public class MouseLook : MonoBehaviour
 {
     public float MouseSensitivity = 100f;
 
+    public Transform PlayerModel;
+
+    float XRotation = 0f;
+
     // Start is called before the first frame update
     void Start()
     {
-        
+        Cursor.lockState = CursorLockMode.Locked;
     }
 
     // Update is called once per frame
@@ -17,6 +21,12 @@ public class MouseLook : MonoBehaviour
     {
         float MouseX = Input.GetAxis("Mouse X") * MouseSensitivity * Time.deltaTime;
         float MouseY = Input.GetAxis("Mouse Y") * MouseSensitivity * Time.deltaTime;
+
+        XRotation -= MouseY;
+        XRotation = Mathf.Clamp(XRotation, -90f, 90f);
+
+        transform.localRotation = Quaternion.Euler(XRotation, 0f, 0f);
+        PlayerModel.Rotate(Vector3.up * MouseX);
 
     }
 }
